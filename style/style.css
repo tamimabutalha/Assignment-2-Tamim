@@ -488,26 +488,38 @@ border-radius: 50px;
     text-align: center;
     margin-right: 200px; 
 }  
+
+.icon{
+    display: none;
+}
 /* Mobile responsive 576px */
 @media screen and (max-width:576px) {
-    .navber{
-        flex-direction: column;
-        align-items: center;
+    
+    .Fitness{
+        font-size: 50px;
+    
     }
     .nav-link{
         display: none;
+        
     }
+    .icon{
+        display: block;
+        font-size: 50px;
+        margin-left: 200px;
+    }    
     .section2{
         flex-direction: column;
         align-items: center;
+        
     }
     .banner-text{
-      margin: 0 auto;
-      font-size: 40px;
-      width: 100%  
+        
+       font-size: 40px;
+       width: 100%  
     }
     .image{
-        max-width: 100%;
+        width: 100%;
         margin-left: 200px;
         
     }
@@ -518,8 +530,32 @@ border-radius: 50px;
     .habits-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
+        row-gap: 180px;
+        
+        
+    }
+    .round img{
+        width: 50%;
+        margin-top: 40px;
+        padding: px;
+    }
+    .round{
         margin: 0 auto;
+        margin-top: 40px;
+        padding-top: 60px;
+    }
+    .round {
+        
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+   .banner-image-container img{
+        width: 100%;
+        border-radius: 40px;
+        margin: 0 auto;
+        margin-top: 50px;
     }
     
 
